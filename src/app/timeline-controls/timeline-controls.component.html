@@ -1,0 +1,7 @@
+<h2> Controls </h2>
+<label for="globalViewID">Global View</label>
+<input type="radio" id="globalViewID" name="viewType" value='global' (click)="updateView($event)">
+<label for="localViewID">Local View</label>
+<input type="radio" id="localViewID" name="viewType" value="local" (click)="updateView($event)">
+<input type="file" id="fileLoaderID" name="timeLineFile" accept="*/*" #fileUploadID>
+<button id="upload" (click)="fileUpload()">Upload</button>

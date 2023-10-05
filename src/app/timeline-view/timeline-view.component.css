@@ -1,0 +1,16 @@
+#vtkDiv {
+    position: relative;
+    width: 25cm;
+    height: 20cm;
+    background: blue;
+}
+#textCanvasID {
+    position: absolute;
+    width:25cm;
+    height: 20cm;
+    background-color: transparent;
+top:0px;
+    left: 0px;
+
+    z-index: 10;
+}
